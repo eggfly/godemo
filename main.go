@@ -20,3 +20,9 @@ func testNet() {
 		log.Println(interf)
 	}
 }
+func init() {
+	log.Println("init1")
+}
+func init() {
+	log.Println("init2")
+}
