@@ -10,10 +10,10 @@ import (
 	// "strings"
 )
 
-func main() {
-	//testNet()
-	testDumpRequest()
-}
+// func main() {
+// 	//testNet()
+// 	testDumpRequest()
+// }
 
 func testNet() {
 	addrs, _ := net.InterfaceAddrs()
